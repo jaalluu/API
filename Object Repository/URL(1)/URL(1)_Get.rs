@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>API</name>
+   <name>URL(1)_Get</name>
    <tag></tag>
-   <elementGuidId>0f7be789-94e8-45f2-9d37-416ed6457685</elementGuidId>
+   <elementGuidId>c1380ed3-e77b-494a-b66d-3f48b4d76012</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;title\&quot;: \&quot;Jalu Ganteng\&quot;,\n    \&quot;body\&quot;: \&quot;Hallo\&quot;,\n    \&quot;userId\&quot;: 1\n  }&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;id\&quot;: 1,\n    \&quot;title\&quot;: \&quot;Jalu Ganteng\&quot;,\n    \&quot;body\&quot;: \&quot;Hallo\&quot;,\n    \&quot;userId\&quot;: 1\n  }&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,12 +22,12 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>952f3bcb-4270-4604-b8c5-5c2f457b8d8e</webElementGuid>
+      <webElementGuid>7b69c139-59a7-464e-9324-3b4e63d87b65</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.3.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
+   <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://jsonplaceholder.typicode.com/posts</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>

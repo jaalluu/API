@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="URL(1)" time="9.108" tests="3" failures="0" errors="0">
+   <testsuite name="URL(1)" tests="3" failures="0" errors="0" time="9.108" skipped="0" timestamp="12-02-2024T16:48:23" hostname="piawaitrisulo - localhost" id="Test Suites/URL(1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jalu/git/API/Reports/20240212_164817/URL(1)/20240212_164818"/>
+         <property name="logFiles" value="/Users/jalu/git/API/Reports/20240212_164817/URL(1)/20240212_164818/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="piawaitrisulo - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/URL(1)/URL(1)_POST" time="3.951" classname="Test Cases/URL(1)/URL(1)_POST" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:48:23 - [TEST_CASE][PASSED] - Test Cases/URL(1)/URL(1)_POST: Test Cases/URL(1)/URL(1)_POST
+
+12-02-2024T16:48:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL(1)/URL(1)_POST")): Send request successfully
+
+12-02-2024T16:48:25 - [MESSAGE][INFO] - HAR: /Users/jalu/git/API/Reports/20240212_164817/URL(1)/20240212_164818/requests/main/0.har
+
+12-02-2024T16:48:25 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:48:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-02-2024T16:48:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:48:27 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL(1)/URL(1)_POST' .
+
+12-02-2024T16:48:27 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL(1)/URL(1)_POST' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL(1)/URL(1)_Get" time="2.179" classname="Test Cases/URL(1)/URL(1)_Get" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:48:27 - [TEST_CASE][PASSED] - Test Cases/URL(1)/URL(1)_Get: Test Cases/URL(1)/URL(1)_Get
+
+12-02-2024T16:48:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL(1)/URL(1)_Get")): Send request successfully
+
+12-02-2024T16:48:27 - [MESSAGE][INFO] - HAR: /Users/jalu/git/API/Reports/20240212_164817/URL(1)/20240212_164818/requests/main/1.har
+
+12-02-2024T16:48:27 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:48:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T16:48:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:48:29 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL(1)/URL(1)_Get' .
+
+12-02-2024T16:48:29 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL(1)/URL(1)_Get' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL(1)/URL(1)_DELETE" time="2.912" classname="Test Cases/URL(1)/URL(1)_DELETE" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:48:29 - [TEST_CASE][PASSED] - Test Cases/URL(1)/URL(1)_DELETE: Test Cases/URL(1)/URL(1)_DELETE
+
+12-02-2024T16:48:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL(1)/URL(1)_DELETE")): Send request successfully
+
+12-02-2024T16:48:30 - [MESSAGE][INFO] - HAR: /Users/jalu/git/API/Reports/20240212_164817/URL(1)/20240212_164818/requests/main/2.har
+
+12-02-2024T16:48:30 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:48:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T16:48:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:48:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL(1)/URL(1)_DELETE' .
+
+12-02-2024T16:48:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL(1)/URL(1)_DELETE' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T16:48:23 - [TEST_SUITE][PASSED] - URL(1): Test Cases/URL(1)/URL(1)_DELETE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

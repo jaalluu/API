@@ -1,0 +1,8 @@
+1
+00:00:00,016 --> 00:00:00,133
+1. response = sendRequest(findTestObject("URL(2)/URL(2)_Get"))
+
+2
+00:00:00,133 --> 00:00:00,136
+5. verifyResponseStatusCode(response, 200)
+

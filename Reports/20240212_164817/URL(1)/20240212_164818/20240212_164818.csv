@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+URL(1),,,,12-02-2024 16:48:23,12-02-2024 16:48:32,9.108s,PASSED
+,,,,,,,
+Test Cases/URL(1)/URL(1)_POST,,,,12-02-2024 16:48:23,12-02-2024 16:48:27,3.951s,PASSED
+"response = sendRequest(findTestObject(""URL(1)/URL(1)_POST""))",,,,12-02-2024 16:48:23,12-02-2024 16:48:25,1.592s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-02-2024 16:48:25,12-02-2024 16:48:25,0.012s,PASSED
+Video,,,,12-02-2024 16:48:27,12-02-2024 16:48:27,0.000s,PASSED
+,,,,,,,
+Test Cases/URL(1)/URL(1)_Get,,,,12-02-2024 16:48:27,12-02-2024 16:48:29,2.179s,PASSED
+"response = sendRequest(findTestObject(""URL(1)/URL(1)_Get""))",,,,12-02-2024 16:48:27,12-02-2024 16:48:27,0.109s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 16:48:27,12-02-2024 16:48:27,0.002s,PASSED
+Video,,,,12-02-2024 16:48:29,12-02-2024 16:48:29,0.000s,PASSED
+,,,,,,,
+Test Cases/URL(1)/URL(1)_DELETE,,,,12-02-2024 16:48:29,12-02-2024 16:48:32,2.912s,PASSED
+"response = sendRequest(findTestObject(""URL(1)/URL(1)_DELETE""))",,,,12-02-2024 16:48:29,12-02-2024 16:48:30,0.831s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 16:48:30,12-02-2024 16:48:30,0.001s,PASSED
+Video,,,,12-02-2024 16:48:32,12-02-2024 16:48:32,0.000s,PASSED

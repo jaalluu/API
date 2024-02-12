@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>URL(1)_DELETE</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d760f24c-fecc-48bf-9db4-7e1237c9bf5a</testCaseGuid>
+   <testCaseGuid>c6e4a3fc-fe23-4d02-9653-b6abf660835e</testCaseGuid>
 </TestCaseEntity>
